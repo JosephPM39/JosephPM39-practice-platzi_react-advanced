@@ -1,0 +1,39 @@
+{
+  "name": "practice-platzi_react-advanced",
+  "version": "1.0.0",
+  "description": "practice of react topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint": "standard",
+    "dev": "webpack serve --config webpack.config.dev.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephPM39/practice-platzi_react-advanced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephPM39/practice-platzi_react-advanced/issues"
+  },
+  "homepage": "https://github.com/JosephPM39/practice-platzi_react-advanced#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "eslint": "^8.12.0",
+    "html-webpack-plugin": "^5.5.0",
+    "standard": "^16.0.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
