@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import { fadeIn } from '../../styles/animation'
 
+//Agregamos un nuevo estilo, el cual declara la altura mínima, esto debe ser así,
+// puesto caso contrario, todos los articles de las photoCards, tendrían altura 0
+// al inicio, generando que intersection observer los vea a todos en el viewport
+// y se renderizen absolutamente todos, arruinando el lazy load
+export const Article = styled.article`
+  min-height: 200px;
+`
+
 export const ImgWrapper = styled.div`
   border-radius: 10px;
   display: block;
